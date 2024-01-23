@@ -1,0 +1,11 @@
+[package]
+name = 'rustInRExample'
+version = '0.1.0'
+edition = '2021'
+
+[lib]
+crate-type = [ 'staticlib' ]
+name = 'rustInRExample'
+
+[dependencies]
+extendr-api = "0.6.0"
